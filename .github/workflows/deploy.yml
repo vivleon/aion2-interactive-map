@@ -1,0 +1,51 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main      # change if your default branch is different
+  workflow_dispatch:
+
+permissions:
+  contents: write   # required for pushing to gh-pages
+  pages: read
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22          # or 20/18, match your local
+          cache: yarn               # ✅ cache Yarn deps
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      # (Optional) Cache Vite build artifacts for faster rebuilds
+      - name: Cache Vite build
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.vite
+            **/.vite
+          key: ${{ runner.os }}-vite-${{ hashFiles('vite.config.*', 'package.json', 'yarn.lock', 'tsconfig.*', 'src/**/*', 'public/**/*') }}
+          restore-keys: |
+            ${{ runner.os }}-vite-
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+

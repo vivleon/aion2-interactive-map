@@ -1,0 +1,30 @@
+/* src/index.css */
+
+@import 'tailwindcss';
+@plugin './hero.ts';
+
+/* Make Tailwind scan HeroUI theme files for class names */
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+/* Dark mode variant so `.dark` on <html> or <body> works */
+@custom-variant dark (&:is(.dark *));
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* OPTIONAL: some base background and font */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+}
+
+/* Leaflet container needs explicit size, we’ll also set via className */
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+}
