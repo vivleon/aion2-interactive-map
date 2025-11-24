@@ -1,0 +1,22 @@
+locations:
+  tpPoint:
+    starterTown:
+      name: "시작 마을"
+      description: "모험이 시작되는 곳입니다."
+
+  dungeon:
+    ancientRuins:
+      name: "고대 폐허"
+      description: "폐허 속에서 몬스터, 전리품, 그리고 위험한 선택이 기다립니다."
+
+gatheringPoints:
+  mining:
+    starterMine:
+      name: "초심자 광산"
+      description: "시작 마을 근처의 작은 광맥으로, 초반 자원을 얻기에 좋습니다."
+
+questPoints:
+  mainQuest:
+    mainQuestStart:
+      name: "메인 퀘스트 시작"
+      description: "메인 스토리가 여기서 시작됩니다."

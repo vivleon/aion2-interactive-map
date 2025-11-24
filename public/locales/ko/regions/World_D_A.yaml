@@ -1,0 +1,156 @@
+AltamiaCanyon:
+  description: 알타미아 협곡
+  name: 알타미아 협곡
+AullaeuFuneralIsland:
+  description: 아울라우 장례식 섬
+  name: 아울라우 장례식 섬
+AullaeuVillage:
+  description: 아울라우 마을
+  name: 아울라우 마을
+BasfeltRuins:
+  description: 바스펠트 폐허
+  name: 바스펠트 폐허
+BasfeltWaterfall:
+  description: 바스펠트 폭포
+  name: 바스펠트 폭포
+BattlescarMound:
+  description: 전투의 흔적 언덕
+  name: 전투의 흔적 언덕
+BlackClawVillage:
+  description: 검은 발톱 부락
+  name: 검은 발톱 부락
+CalderonCanyon:
+  description: 칼데론 협곡
+  name: 칼데론 협곡
+CrimsonIsle:
+  description: 진홍의 섬
+  name: 진홍의 섬
+DawnLegionBase:
+  description: 새벽의 군단 기지
+  name: 새벽의 군단 기지
+DranaPlantation:
+  description: 드라나 농장
+  name: 드라나 농장
+Dranactus:
+  description: 드라낙투스
+  name: 드라낙투스
+DredgionCrashSite:
+  description: 드레드기온 추락지
+  name: 드레드기온 추락지
+EasternAltamiaHighland:
+  description: 알타미아 고원 동부
+  name: 알타미아 고원 동부
+EasternCantasValley:
+  description: 칸타스 계곡 동부
+  name: 칸타스 계곡 동부
+EasternGribadeHighland:
+  description: 그리바드 고원 동부
+  name: 그리바드 고원 동부
+EasternTolbasForest:
+  description: 톨바스 숲 동부
+  name: 톨바스 숲 동부
+EllunRiverMarsh:
+  description: 엘룬 강 습지
+  name: 엘룬 강 습지
+EllunRiverMeadow:
+  description: 엘룬 강 초원
+  name: 엘룬 강 초원
+EllunRiverMidstream:
+  description: 엘룬 강 중류
+  name: 엘룬 강 중류
+EternalIsle:
+  description: 영원의 섬
+  name: 영원의 섬
+FafniteDeposit:
+  description: 파프나이트 매장지
+  name: 파프나이트 매장지
+ForestofExiles:
+  description: 유배자의 숲
+  name: 유배자의 숲
+GardenoftheIllusionGod:
+  description: 환영신의 정원
+  name: 환영신의 정원
+IdunsLake:
+  description: 이둔의 호수
+  name: 이둔의 호수
+ImmortalIsle:
+  description: 불멸의 섬
+  name: 불멸의 섬
+ImpetusiumSquare:
+  description: 임페투시움 광장
+  name: 임페투시움 광장
+KrakaFootpath:
+  description: 크라카 샛길
+  name: 크라카 샛길
+LagtaFortress:
+  description: 라그타 요새
+  name: 라그타 요새
+MahindelCliff:
+  description: 마힌델 절벽
+  name: 마힌델 절벽
+MoslanForest:
+  description: 모슬란 숲
+  name: 모슬란 숲
+NahidBrigadeFortress:
+  description: 나히드 여단 요새
+  name: 나히드 여단 요새
+NamelessCemetery:
+  description: 이름 없는 묘지
+  name: 이름 없는 묘지
+NornirAssembly:
+  description: 노르니르 회합소
+  name: 노르니르 회합소
+NorthernTolbasForest:
+  description: 톨바스 숲 북부
+  name: 톨바스 숲 북부
+PilgrimsRidge:
+  description: 순례자의 능선
+  name: 순례자의 능선
+PurifyingForest:
+  description: 정화의 숲
+  name: 정화의 숲
+SafeHaven:
+  description: 안전한 안식처
+  name: 안전한 안식처
+SanctumOutpost:
+  description: 엘리시움 전초기지
+  name: 엘리시움 전초기지
+ScarletForest:
+  description: 핏빛 숲
+  name: 핏빛 숲
+SilentHill:
+  description: 고요한 언덕
+  name: 고요한 언덕
+SouthernAltamiaHighland:
+  description: 알타미아 고원 남부
+  name: 알타미아 고원 남부
+SouthernGribadeHighland:
+  description: 그리바드 고원 남부
+  name: 그리바드 고원 남부
+SouthernTolbasForest:
+  description: 톨바스 숲 남부
+  name: 톨바스 숲 남부
+SpiritIsle:
+  description: 정령의 섬
+  name: 정령의 섬
+TraneinHighland:
+  description: 트라네인 고원
+  name: 트라네인 고원
+Uruthumheim:
+  description: 우르툼헤임
+  name: 우르툼헤임
+VerteronFortressRuins:
+  description: 베르테론 요새 폐허
+  name: 베르테론 요새 폐허
+WesternAltamiaHighland:
+  description: 알타미아 고원 서부
+  name: 알타미아 고원 서부
+WesternCantasValley:
+  description: 칸타스 계곡 서부
+  name: 칸타스 계곡 서부
+WesternGribadeHighland:
+  description: 그리바드 고원 서부
+  name: 그리바드 고원 서부
+ZumionVillage:
+  description: 주미온 마을
+  name: 주미온 마을

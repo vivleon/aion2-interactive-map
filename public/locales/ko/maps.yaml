@@ -1,0 +1,18 @@
+Abyss_Reshanta_A:
+  description: 어비스 레산타 A
+  name: 어비스 레산타 A
+Abyss_Reshanta_B:
+  description: 어비스 레산타 B
+  name: 어비스 레산타 B
+World_D_A:
+  description: 알트가르드 (마족)
+  name: 알트가르드 (마족)
+World_D_Starter:
+  description: 시작 지역 (마족)
+  name: 시작 지역 (마족)
+World_L_A:
+  description: 베르테론 (천족)
+  name: 베르테론 (천족)
+World_L_Starter:
+  description: 시작 지역 (천족)
+  name: 시작 지역 (천족)

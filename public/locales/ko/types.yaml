@@ -1,0 +1,27 @@
+categories:
+  collection:
+    name: 수집품
+  location:
+    name: 위치
+subtypes:
+  battlefield:
+    description: 전장
+    name: 전장
+  hiddenCube:
+    description: 숨겨진 큐브
+    name: 숨겨진 큐브
+  monolithMaterial:
+    description: 모놀리스
+    name: 모놀리스
+  occupation:
+    description: 점령전
+    name: 점령전
+  seal:
+    description: 봉인
+    name: 봉인
+  teleport:
+    description: 거점 이동 장치
+    name: 키벨리스크
+  village:
+    description: 마을
+    name: 마을
