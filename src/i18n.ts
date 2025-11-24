@@ -14,6 +14,7 @@ export const SUPPORTED_LANGUAGES: LanguageCode[] = [
   "en",
   "zh-CN",
   "zh-TW",
+  "ko",
 ];
 
 // ---- i18n initialization -----------------------------------
